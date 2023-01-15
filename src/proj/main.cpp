@@ -1,4 +1,4 @@
-﻿#include "../libproj/Start.h"
+#include "../libproj/Start.h"
 
 int main()
 {

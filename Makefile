@@ -13,7 +13,7 @@ PREF_SRC = ./src/
 PREF_SRC_PROJ = ${PREF_SRC}proj/
 PREF_SRC_LIBPROJ = ${PREF_SRC}libproj/
 
-default : all
+default : all 
 
 all : ${TARGET}
 
@@ -31,6 +31,3 @@ ${PREF_BUILD_LIBPROJ}libproj.a : ${PREF_BUILD_LIBPROJ}Start.o
 
 clean :
 	rm ${PREF_BIN}${TARGET} ${PREF_BUILD_LIBPROJ}*.* ${PREF_BUILD_PROJ}*.*
-
-del :
-	del ${PREF_BIN}${TARGET} ${PREF_BUILD_LIBPROJ}*.* ${PREF_BUILD_PROJ}*.*

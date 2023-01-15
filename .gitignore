@@ -1,0 +1,9 @@
+# Compiled Object files
+*.a
+*.o
+*.d
+# Executables
+*.exe
+*.json
+*.sqlite
+*.sqlite-journal
